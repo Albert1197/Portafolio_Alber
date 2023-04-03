@@ -1,0 +1,151 @@
+
+
+a.producto {
+    display: block;
+    width: auto;;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    border-radius: 5px;
+    padding: 5px 15px ;
+    margin: 20px 10px;
+    color: white;
+    text-decoration: none;
+}
+button.Editar{
+    display: block;
+    width: auto;;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:royalblue;
+    border-radius: 5px;
+    padding: 5px 15px ;
+    margin: 20px 10px;
+    color: white;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+
+}
+button.Eliminar{
+    display: block;
+    width: auto;;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:red;
+    border-radius: 5px;
+    padding: 5px 15px ;
+    margin: 20px 10px;
+    color: white; 
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+}
+button.editar1{
+    display: block;
+    width: auto;;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:royalblue;
+    border-radius: 5px;
+    padding: 5px 15px ;
+    margin: 20px 10px;
+    color: white;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+}
+button.eliminar1{
+    display: block;
+    width: auto;;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:red;
+    border-radius: 5px;
+    padding: 5px 15px ;
+    margin: 20px 10px;
+    color: white; 
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+
+
+.fieldset{
+    width: 700px;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    border: 3px solid black;
+    justify-content: center;
+}
+
+.checkbox{
+    align-items: left;
+}
+table.formulario >tr, td{
+    padding: 10px;
+    text-align: right;
+}
+
+label{
+    display: inline-block;
+    margin-right: 20px;
+    width: 70px;
+    text-align: left;
+}
+input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 70px;
+  }
+
+button.Guardar{
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 5px;
+    margin: auto;
+    box-shadow: 6px 2px 4px black;
+    color:black;
+}
+
+.Cancelar{
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 5px;
+    margin: auto;
+    box-shadow: 6px 2px 4px black;
+    color: #000;
+}
+
+button.Guardar{
+    float: right;
+}
+a.Cancelar{
+    float: left;
+}
+
+
+.ancho-input {
+    width: 300px;
+}
+
+
+@media screen and (max-width: 575px) {
+    .fieldset{
+        width: 225px;
+        height: auto;
+        margin: auto;
+        margin-top: 10px;
+        padding: 20px;
+        border: 3px solid black;
+        justify-content: center;
+    }
+    
+.check {
+    align-items: left  
+}
+
+
+
+    
+    
+
+
+
